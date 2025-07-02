@@ -1,0 +1,14 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "FetalBoneData: Fetal Bone Measurements Dataset",
+  author   = c(person("Thomas", "O'Mahoney"),
+               person("Jael", "Vakil Kumar")),
+  year     = "2025",
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/Tomomahoney/FetalBoneData",
+  textVersion = paste(
+    "O'Mahoney, T. and Vakil Kumar, J. (2025).",
+    "FetalBoneData: Fetal Bone Measurements Dataset.",
+    "R package version 0.1.0."
+  )
+)

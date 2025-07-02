@@ -1,0 +1,14 @@
+Package: FetalBoneData
+Title: Fetal Bone Measurements Dataset
+Version: 0.1.0
+Authors@R: c(
+    person("Thomas", "O'Mahoney", , "thomas.omahoney@aru.ac.uk", role = c("aut", "cre")),
+    person("Jael", "Vakil Kumar", role = "aut")
+    )
+Description: Dimensions of fetal bones from various literature sources and the author's own data. All dimensions are in mm.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+LazyData: true
+Depends: R (>= 3.5.0)
