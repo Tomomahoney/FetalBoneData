@@ -18,7 +18,7 @@ You can install the package from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("yourusername/FetalBoneData")
+devtools::install_github("tomomahoney/FetalBoneData")
 ```
 
 ## Usage
