@@ -26,8 +26,8 @@ devtools::install_github("tomomahoney/FetalBoneData")
 ```r
 library(FetalBoneData)
 
-# View basocranial bone data
-head(basocranial_bones)
+# View basicranial bone data
+head(basicranial_bones)
 
 # View extremity dimensions
 head(extremity_dimensions)
