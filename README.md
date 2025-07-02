@@ -9,8 +9,8 @@ This R package contains datasets of fetal bone measurements from various sources
 - Shoulder and pelvic girdle (From Fazekas and Kósa 1978)
 - Small bones (From Fazekas and Kósa 1978)
 - Long bone lengths (Author's own, taken from the University of Liverpool Fetal collection).
-- Squamous_occipital
-- Squamous temporal
+- Squamous_occipital (From Grzonkowska_et_al. (2021)).
+- Squamous temporal (From Grzonkowska_et_al. (2023)).
 
 ## Installation
 
