@@ -2,19 +2,19 @@
 library(tidyverse)
 
 # Read Fazekas and Kosa CSV files
-basicranial_bones <- read.csv("data-raw/Fazekas_Kosa_Basicranial_bones.csv", 
+FK_basicranial_bones <- read.csv("data-raw/Fazekas_Kosa_Basicranial_bones.csv", 
                             stringsAsFactors = FALSE)
-facial_bones <- read.csv("data-raw/Fazekas_Kosa_facial_bones.csv",
+FK_facial_bones <- read.csv("data-raw/Fazekas_Kosa_facial_bones.csv",
                         stringsAsFactors = FALSE)
-vault_bones <- read.csv("data-raw/Fazekas_Kosa_Vault.csv",
+FK_vault_bones <- read.csv("data-raw/Fazekas_Kosa_Vault.csv",
                        stringsAsFactors = FALSE)
-extremity_dimensions <- read.csv("data-raw/Fazekas_Kosa_Extremity_Dimensions.csv",
+FK_extremity_dimensions <- read.csv("data-raw/Fazekas_Kosa_Extremity_Dimensions.csv",
                                stringsAsFactors = FALSE)
-ribs <- read.csv("data-raw/Fazekas_Kosa_Ribs.csv",
+FK_ribs <- read.csv("data-raw/Fazekas_Kosa_Ribs.csv",
                  stringsAsFactors = FALSE)
-shoulder_pelvic <- read.csv("data-raw/Fazekas_Kosa_Shoulder_pelvic_girdle.csv",
+FK_shoulder_pelvic <- read.csv("data-raw/Fazekas_Kosa_Shoulder_pelvic_girdle.csv",
                            stringsAsFactors = FALSE)
-small_bones <- read.csv("data-raw/Fazekas_Kosa_Small_bones.csv",
+FK_small_bones <- read.csv("data-raw/Fazekas_Kosa_Small_bones.csv",
                        stringsAsFactors = FALSE)
 
 # Read Grzonkowska et al. CSV files
@@ -24,7 +24,7 @@ squamous_temporal <- read.csv("data-raw/Grzonkowska_et_al_squamous_temporal.csv"
                              stringsAsFactors = FALSE)
 
 # Read Liverpool collection data
-liverpool_lengths <- read.csv("data-raw/TomO'M Liverpool collection LB lengthscleanednew.csv",
+liverpool_fetal_LB_lengths <- read.csv("data-raw/TomO'M Liverpool collection LB lengthscleanednew.csv",
                             stringsAsFactors = FALSE)
 
 # Save as .rdata files
