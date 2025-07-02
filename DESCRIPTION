@@ -12,3 +12,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
 Depends: R (>= 3.5.0)
+URL: https://github.com/Tomomahoney/FetalBoneData
+BugReports: https://github.com/Tomomahoney/FetalBoneData/issues
