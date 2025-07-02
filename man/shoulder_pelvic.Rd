@@ -3,27 +3,17 @@
 \docType{data}
 \name{shoulder_pelvic}
 \alias{shoulder_pelvic}
-\title{Shoulder and Pelvic Girdle Measurements}
+\title{Fetal Shoulder and Pelvic Girdle Data}
 \format{
-A data frame with rows and variables:
-\describe{
-\item{Lunar_month}{Gestational age in lunar months}
-\item{Sex}{Sex of the fetus}
-\item{No_of_cases}{Case number}
-\item{Order}{Order of cases}
-\item{Body_length}{Body length in cm}
-\item{Body_weight}{Body weight in g}
-\item{Clavicle_length}{Length of clavicle in mm}
-...
-}
+A data frame containing measurements of fetal shoulder and pelvic girdle
 }
 \source{
-Fazekas and Kósa dataset
+Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 }
 \usage{
 shoulder_pelvic
 }
 \description{
-A dataset containing measurements of shoulder and pelvic girdle bones
+Dataset containing measurements of fetal shoulder and pelvic girdle from Fazekas and Kosa
 }
 \keyword{datasets}

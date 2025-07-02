@@ -3,27 +3,17 @@
 \docType{data}
 \name{small_bones}
 \alias{small_bones}
-\title{Small Bone Measurements}
+\title{Fetal Small Bones Data}
 \format{
-A data frame with rows and variables:
-\describe{
-\item{Lunar_month}{Gestational age in lunar months}
-\item{Sex}{Sex of the fetus}
-\item{No_of_cases}{Case number}
-\item{Order}{Order of cases}
-\item{Body_length}{Body length in mm}
-\item{Body_weight}{Body weight in mm}
-\item{Atlas_length}{Length of atlas in mm}
-...
-}
+A data frame containing measurements of fetal small bones
 }
 \source{
-Fazekas and Kósa dataset
+Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 }
 \usage{
 small_bones
 }
 \description{
-A dataset containing measurements of small bones in fetal specimens
+Dataset containing measurements of fetal small bones from Fazekas and Kosa
 }
 \keyword{datasets}

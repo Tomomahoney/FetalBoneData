@@ -3,27 +3,17 @@
 \docType{data}
 \name{extremity_dimensions}
 \alias{extremity_dimensions}
-\title{Extremity Dimensions}
+\title{Fetal Extremity Dimensions Data}
 \format{
-A data frame with 138 rows and 14 variables:
-\describe{
-\item{Lunar_month}{Gestational age in lunar months}
-\item{Sex}{Sex of the fetus}
-\item{No_of_cases}{Case number}
-\item{Order}{Order of cases}
-\item{Body_length}{Body length in cm}
-\item{Body_weight}{Body weight in g}
-\item{Humerus_Length}{Length of humerus in mm}
-...
-}
+A data frame containing measurements of fetal extremity dimensions
 }
 \source{
-Fazekas and Kósa dataset
+Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 }
 \usage{
 extremity_dimensions
 }
 \description{
-A dataset containing measurements of extremity dimensions in fetal specimens
+Dataset containing measurements of fetal extremity dimensions from Fazekas and Kosa
 }
 \keyword{datasets}

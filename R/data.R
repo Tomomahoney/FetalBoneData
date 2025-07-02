@@ -1,122 +1,79 @@
-#' Basicranial Bone Measurements
+#' Fetal Basicranial Bones Data
 #'
-#' A dataset containing measurements of basocranial bones in fetal specimens
+#' Dataset containing measurements of fetal basicranial bones from Fazekas and Kosa
 #'
-#' @format A data frame with 138 rows and 17 variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in cm}
-#'   \item{Body_weight}{Body weight in g}
-#'   \item{Greater_wing_bone_sphenoid}{Greater wing bone of sphenoid measurements}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
-"basocranial_bones"
+#' @format A data frame containing measurements of fetal basicranial bones
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
+"basicranial_bones"
 
-#' Extremity Dimensions
+#' Fetal Facial Bones Data
 #'
-#' A dataset containing measurements of extremity dimensions in fetal specimens
+#' Dataset containing measurements of fetal facial bones from Fazekas and Kosa
 #'
-#' @format A data frame with 138 rows and 14 variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in cm}
-#'   \item{Body_weight}{Body weight in g}
-#'   \item{Humerus_Length}{Length of humerus in mm}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
-"extremity_dimensions"
-
-#' Facial Bone Measurements
-#'
-#' A dataset containing measurements of facial bones in fetal specimens
-#'
-#' @format A data frame with 138 rows and 19 variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in mm}
-#'   \item{Body_weight}{Body weight in g}
-#'   \item{Nasal_bone_length}{Length of nasal bone in mm}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
+#' @format A data frame containing measurements of fetal facial bones
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 "facial_bones"
 
-#' Liverpool Bone Length Collection
+#' Fetal Vault Bones Data
 #'
-#' A dataset containing bone length measurements from Liverpool collection
+#' Dataset containing measurements of fetal vault bones from Fazekas and Kosa
 #'
-#' @format A data frame with rows and 17 variables:
-#' \describe{
-#'   \item{Specimen_Number}{Specimen identifier}
-#'   \item{Age_gestational}{Gestational age}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{L_Humerus}{Left humerus length in mm}
-#'   ...
-#' }
-#' @source Liverpool Collection
-"liverpool_bones"
+#' @format A data frame containing measurements of fetal vault bones
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
+"vault_bones"
 
-#' Rib Measurements
+#' Fetal Extremity Dimensions Data
 #'
-#' A dataset containing measurements of ribs in fetal specimens
+#' Dataset containing measurements of fetal extremity dimensions from Fazekas and Kosa
 #'
-#' @format A data frame with 138 rows and variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in cm}
-#'   \item{Body_weight}{Body weight in g}
-#'   \item{Rib_I}{First rib measurement in mm}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
+#' @format A data frame containing measurements of fetal extremity dimensions
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
+"extremity_dimensions"
+
+#' Fetal Ribs Data
+#'
+#' Dataset containing measurements of fetal ribs from Fazekas and Kosa
+#'
+#' @format A data frame containing measurements of fetal ribs
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 "ribs"
 
-#' Shoulder and Pelvic Girdle Measurements
+#' Fetal Shoulder and Pelvic Girdle Data
 #'
-#' A dataset containing measurements of shoulder and pelvic girdle bones
+#' Dataset containing measurements of fetal shoulder and pelvic girdle from Fazekas and Kosa
 #'
-#' @format A data frame with rows and variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in cm}
-#'   \item{Body_weight}{Body weight in g}
-#'   \item{Clavicle_length}{Length of clavicle in mm}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
+#' @format A data frame containing measurements of fetal shoulder and pelvic girdle
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 "shoulder_pelvic"
 
-#' Small Bone Measurements
+#' Fetal Small Bones Data
 #'
-#' A dataset containing measurements of small bones in fetal specimens
+#' Dataset containing measurements of fetal small bones from Fazekas and Kosa
 #'
-#' @format A data frame with rows and variables:
-#' \describe{
-#'   \item{Lunar_month}{Gestational age in lunar months}
-#'   \item{Sex}{Sex of the fetus}
-#'   \item{No_of_cases}{Case number}
-#'   \item{Order}{Order of cases}
-#'   \item{Body_length}{Body length in mm}
-#'   \item{Body_weight}{Body weight in mm}
-#'   \item{Atlas_length}{Length of atlas in mm}
-#'   ...
-#' }
-#' @source Fazekas and Kósa dataset
+#' @format A data frame containing measurements of fetal small bones
+#' @source Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 "small_bones"
+
+#' Fetal Squamous Occipital Data
+#'
+#' Dataset containing measurements of fetal squamous occipital from Grzonkowska et al.
+#'
+#' @format A data frame containing measurements of fetal squamous occipital
+#' @source Grzonkowska et al. publication details
+"squamous_occipital"
+
+#' Fetal Squamous Temporal Data
+#'
+#' Dataset containing measurements of fetal squamous temporal from Grzonkowska et al.
+#'
+#' @format A data frame containing measurements of fetal squamous temporal
+#' @source Grzonkowska et al. publication details
+"squamous_temporal"
+
+#' Liverpool Collection Long Bone Lengths
+#'
+#' Dataset containing long bone measurements from the Liverpool Collection
+#'
+#' @format A data frame containing fetal long bone measurements
+#' @source Liverpool Collection data collected by Thomas O'Mahoney
+"liverpool_lengths"

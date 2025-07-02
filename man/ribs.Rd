@@ -3,27 +3,17 @@
 \docType{data}
 \name{ribs}
 \alias{ribs}
-\title{Rib Measurements}
+\title{Fetal Ribs Data}
 \format{
-A data frame with 138 rows and variables:
-\describe{
-\item{Lunar_month}{Gestational age in lunar months}
-\item{Sex}{Sex of the fetus}
-\item{No_of_cases}{Case number}
-\item{Order}{Order of cases}
-\item{Body_length}{Body length in cm}
-\item{Body_weight}{Body weight in g}
-\item{Rib_I}{First rib measurement in mm}
-...
-}
+A data frame containing measurements of fetal ribs
 }
 \source{
-Fazekas and Kósa dataset
+Fazekas, I.G. and Kósa, F. (1978) Forensic Fetal Osteology. Akadémiai Kiadó, Budapest.
 }
 \usage{
 ribs
 }
 \description{
-A dataset containing measurements of ribs in fetal specimens
+Dataset containing measurements of fetal ribs from Fazekas and Kosa
 }
 \keyword{datasets}

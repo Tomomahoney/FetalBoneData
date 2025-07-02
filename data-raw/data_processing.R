@@ -3,29 +3,29 @@ library(tidyverse)
 
 # Read Fazekas and Kosa CSV files
 basicranial_bones <- read.csv("data-raw/Fazekas_Kosa_Basicranial_bones.csv", 
-                              stringsAsFactors = FALSE)
+                            stringsAsFactors = FALSE)
 facial_bones <- read.csv("data-raw/Fazekas_Kosa_facial_bones.csv",
-                         stringsAsFactors = FALSE)
-vault_bones <- read.csv("data-raw/Fazekas_Kosa_Vault.csv",
                         stringsAsFactors = FALSE)
+vault_bones <- read.csv("data-raw/Fazekas_Kosa_Vault.csv",
+                       stringsAsFactors = FALSE)
 extremity_dimensions <- read.csv("data-raw/Fazekas_Kosa_Extremity_Dimensions.csv",
-                                 stringsAsFactors = FALSE)
+                               stringsAsFactors = FALSE)
 ribs <- read.csv("data-raw/Fazekas_Kosa_Ribs.csv",
                  stringsAsFactors = FALSE)
 shoulder_pelvic <- read.csv("data-raw/Fazekas_Kosa_Shoulder_pelvic_girdle.csv",
-                            stringsAsFactors = FALSE)
+                           stringsAsFactors = FALSE)
 small_bones <- read.csv("data-raw/Fazekas_Kosa_Small_bones.csv",
-                        stringsAsFactors = FALSE)
+                       stringsAsFactors = FALSE)
 
 # Read Grzonkowska et al. CSV files
 squamous_occipital <- read.csv("data-raw/Grzonkowska_et_al_squamous_occipital.csv",
-                               stringsAsFactors = FALSE)
-squamous_temporal <- read.csv("data-raw/Grzonkowska_et_al_squamous_temporal.csv",
                               stringsAsFactors = FALSE)
+squamous_temporal <- read.csv("data-raw/Grzonkowska_et_al_squamous_temporal.csv",
+                             stringsAsFactors = FALSE)
 
 # Read Liverpool collection data
 liverpool_lengths <- read.csv("data-raw/TomO'M Liverpool collection LB lengthscleanednew.csv",
-                              stringsAsFactors = FALSE)
+                            stringsAsFactors = FALSE)
 
 # Save as .rdata files
 usethis::use_data(basicranial_bones, overwrite = TRUE)
