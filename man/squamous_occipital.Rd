@@ -14,6 +14,6 @@ Grzonkowska et al. publication details
 squamous_occipital
 }
 \description{
-Dataset containing measurements of fetal squamous occipital from Grzonkowska et al.
+Dataset containing measurements of fetal squamous occipital from "Grzonkowska, M., Baumgart, M., Badura, M., Wiśniewski, M. and Szpinda, M., 2021. Quantitative anatomy of the fused ossification center of the occipital squama in the human fetus. Plos one, 16(2), p.e0247601. https://doi.org/10.1371/journal.pone.0247601"
 }
 \keyword{datasets}
