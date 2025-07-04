@@ -14,6 +14,6 @@ Grzonkowska et al. publication details
 squamous_temporal
 }
 \description{
-Dataset containing measurements of fetal squamous temporal from Grzonkowska, M., Baumgart, M., Kułakowski, M. and Szpinda, M., 2023. Quantitative anatomy of the primary ossification center of the squamous part of temporal bone in the human fetus. Plos one, 18(12), p.e0295590. https://doi.org/10.1371/journal.pone.0295590 
+Dataset containing measurements of fetal squamous temporal from "Grzonkowska, M., Baumgart, M., Kułakowski, M. and Szpinda, M., 2023. Quantitative anatomy of the primary ossification center of the squamous part of temporal bone in the human fetus. Plos one, 18(12), p.e0295590. https://doi.org/10.1371/journal.pone.0295590" 
 }
 \keyword{datasets}
