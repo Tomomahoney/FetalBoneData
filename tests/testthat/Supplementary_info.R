@@ -1,3 +1,7 @@
+library(dplyr)
+library(knitr)
+library(ggplot2)
+
 ## Loading of humerus datasets
 
 DF1a <- data.frame(
@@ -16,7 +20,22 @@ DF2a <- data.frame(
 humerus_age <- rbind(DF1a, DF2a)
 
 # Summary statistics
-summary_statistics(humerus_age, Dataset, Humerus_Length)
+summary_stats <- humerus_age %>%
+  group_by(Dataset) %>%
+  summarise(
+    Count = sum(!is.na(Humerus_Length)),
+    Mean = mean(Humerus_Length, na.rm = TRUE),
+    SD = sd(Humerus_Length, na.rm = TRUE),
+    Min = min(Humerus_Length, na.rm = TRUE),
+    Q1 = quantile(Humerus_Length, 0.25, na.rm = TRUE),
+    Median = median(Humerus_Length, na.rm = TRUE),
+    Q3 = quantile(Humerus_Length, 0.75, na.rm = TRUE),
+    Max = max(Humerus_Length, na.rm = TRUE)
+  ) %>%
+  mutate(across(where(is.numeric), round, 2))
+
+# Display summary statistics
+kable(summary_stats, caption = "Summary Statistics of Humerus Lengths")
 
 # Violin plot
 ggplot(humerus_age, aes(x = Dataset, y = Humerus_Length, fill = Dataset)) +
