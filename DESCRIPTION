@@ -11,6 +11,12 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
-Depends: R (>= 3.5.0)
+Depends: 
+  R (>= 3.5.0),
+Imports:
+  ggplot2,
+  dplyr,
+  tidyverse,
+  knitr
 URL: https://github.com/Tomomahoney/FetalBoneData
 BugReports: https://github.com/Tomomahoney/FetalBoneData/issues
