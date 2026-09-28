@@ -1,6 +1,6 @@
 Package: FetalBoneData
 Title: Fetal Bone Measurements Dataset
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(
     person("Thomas", "O'Mahoney", , "thomas.omahoney@aru.ac.uk", role = c("aut", "cre")),
     person("Jael", "Vakil Kumar", role = "aut")
