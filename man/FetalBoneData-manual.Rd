@@ -8,10 +8,10 @@ This package contains comprehensive datasets of fetal bone measurements from mul
 \section{Datasets}{
 The package contains the following datasets:
 \itemize{
-  \item \code{basocranial_bones}: Measurements of basocranial bones
+  \item \code{basicranial_bones}: Measurements of basicranial bones
   \item \code{extremity_dimensions}: Measurements of limb bones
   \item \code{facial_bones}: Measurements of facial bones
-  \item \code{liverpool_bones}: Long bone measurements from Liverpool Collection
+  \item \code{liverpool_lengths}: Long bone measurements from Liverpool Collection
   \item \code{ribs}: Measurements of ribs
   \item \code{shoulder_pelvic}: Measurements of shoulder and pelvic girdle
   \item \code{small_bones}: Measurements of small bones
@@ -28,8 +28,8 @@ library(FetalBoneData)
 
 To view a dataset:
 \preformatted{
-head(basocranial_bones)
-data(liverpool_bones)
+head(basicranial_bones)
+data(liverpool_lengths)
 }
 
 To get summary statistics:
@@ -51,7 +51,7 @@ The measurements come from:
 \section{Citation}{
 To cite this package, please use:
 
-O'Mahoney, T. and Vakil Kumar, J. (2025). FetalBoneData: Fetal Bone Measurements Dataset. R package version 0.1.0.
+O'Mahoney, T. and Vakil Kumar, J. (2025). FetalBoneData: Fetal Bone Measurements Dataset. R package version 1.0.0.
 }
 
 \author{

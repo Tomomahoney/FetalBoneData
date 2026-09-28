@@ -49,7 +49,7 @@ Grzonkowska M, Baumgart M, Badura M, Wiśniewski M, Siedlecki Z, Szpinda M (2021
 
 Grzonkowska M, Baumgart M, Badura M, Wiśniewski M, Siedlecki Z, Szpinda M (2023) Age- and sex-specific reference values for squamous part of the occipital bone in the human fetus. PLoS ONE 18(12): e0295590. https://doi.org/10.1371/journal.pone.0295590
 
-O'Mahoney, T. and Vakil Kumar, J., 2025. FetalBoneData: Fetal Bone Measurements Dataset. R package version 0.1.0.
+O'Mahoney, T. and Vakil Kumar, J., 2025. FetalBoneData: Fetal Bone Measurements Dataset. R package version 1.0.0.
 
 You can also cite this package using:
 ```r
