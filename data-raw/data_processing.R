@@ -33,7 +33,7 @@ squamous_temporal <- read.csv("data/squamous_temporal_cleaned.csv",
                              stringsAsFactors = FALSE)
 
 # Read Liverpool collection data
-liverpool_fetal_LB_lengths <- read.csv("data/Liverpool_fetal_LB_lengths_cleaned.csv",
+liverpool_lengths <- read.csv("data/Liverpool_fetal_LB_lengths_cleaned.csv",
                                        stringsAsFactors = FALSE)
 
 # Save as .rdata files
@@ -46,4 +46,4 @@ usethis::use_data(FK_shoulder_pelvic, overwrite = TRUE)
 usethis::use_data(FK_small_bones, overwrite = TRUE)
 usethis::use_data(squamous_occipital, overwrite = TRUE)
 usethis::use_data(squamous_temporal, overwrite = TRUE)
-usethis::use_data(liverpool_fetal_LB_lengths, overwrite = TRUE)
+usethis::use_data(liverpool_lengths, overwrite = TRUE)
